@@ -1,9 +1,9 @@
 function github(){
-    location.href = 'https://github.com/BINDAT'
+    window.open('https://github.com/BINDAT','_blank')
     }
 
 function linkedin(){
-    location.href = 'https://www.linkedin.com/in/maxime-rigaud-604235291/'
+    window.open('https://www.linkedin.com/in/maxime-rigaud-604235291/','_blank')
     }
 
 function mail(){
@@ -11,5 +11,5 @@ function mail(){
     }
 
 function cv(){
-    location.href = 'CV.pdf'
+    window.open('CV.pdf')
     }
