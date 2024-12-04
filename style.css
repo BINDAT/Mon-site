@@ -12,7 +12,19 @@
     border-radius: 200px 200px 200px 200px;
 }
 
-.introduction {
+.introduction_bloc {
     display: flex;
     background : linear-gradient(orangered,orange);
+    align-items: center;
+}
+
+.ajustement_header {
+    margin: auto;
+    padding: auto;
+    width: auto;
+    height: auto;
+}
+
+body {
+    margin: 0;
 }
