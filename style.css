@@ -14,5 +14,5 @@
 
 .introduction {
     display: flex;
-    background : linear-gradient(orangered,orange)
+    background : linear-gradient(orangered,orange);
 }
