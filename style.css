@@ -16,7 +16,6 @@
     display: flex;
     background : linear-gradient(orangered,orange);
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .ajustement_header {
@@ -28,5 +27,4 @@
 
 body {
     margin: 0;
-    padding: 0;
 }
