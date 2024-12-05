@@ -16,6 +16,7 @@
     display: flex;
     background : linear-gradient(orangered,orange);
     align-items: center;
+    justify-content: center;
 }
 
 .ajustement_header {
