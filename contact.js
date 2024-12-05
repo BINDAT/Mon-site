@@ -17,3 +17,7 @@ function cv(){
 function duolingo(){
     window.open('https://www.duolingo.com/profile/Infs693','_blank')
 }
+
+function wildlearner(){
+    window.open('https://wildlearner.com/profile/maxime-rigaud3790231/','_blank')
+}
