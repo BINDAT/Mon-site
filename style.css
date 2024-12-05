@@ -1,4 +1,4 @@
-.avatar{
+.avatar {
     width: 200px;
     height: 200px;
     margin: 5px;
@@ -18,11 +18,17 @@
     margin: 5px;   
 }
 
-.alignement_footer{
+.alignement_footer {
     display:flex;
     align-items: center;
     justify-content: space-between;
     background : linear-gradient(to bottom right,orangered,orange);
+}
+
+.alignement_main {
+    display: flex;
+    align-items: ;
+    justify-content: ;
 }
 
 body {
