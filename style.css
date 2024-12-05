@@ -29,3 +29,10 @@
 body {
     margin: 0;
 }
+
+.ajustement_footer {
+    margin: auto;
+    padding: auto;
+    width: auto;
+    height: auto;
+}
