@@ -7,7 +7,7 @@
 
 .introduction_bloc {
     display: flex;
-    background : linear-gradient(orangered,orange);
+    background : linear-gradient(to top left,orangered,orange);
     align-items: center;
     justify-content: center;
 }
