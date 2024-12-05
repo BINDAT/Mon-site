@@ -13,3 +13,7 @@ function mail(){
 function cv(){
     window.open('CV.pdf')
     }
+
+function duolingo(){
+    window.open('https://www.duolingo.com/profile/Infs693','_blank')
+}
