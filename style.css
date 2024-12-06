@@ -27,8 +27,14 @@
 
 .alignement_main {
     display: flex;
-    align-items: ;
-    justify-content: ;
+    align-items: center;
+    justify-content: center;
+}
+
+.occupation_bloc {
+    width: 130px;
+    height: 130px;
+    margin: 5px;
 }
 
 body {
