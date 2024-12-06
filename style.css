@@ -21,8 +21,10 @@
 .alignement_footer {
     display:flex;
     align-items: center;
+   
     justify-content: space-between;
-    background : linear-gradient(to bottom right,orangered,orange);
+    background : linear-gradient(to bottom right,orangered,orange); 
+    position: absolute; bottom: 0; right: 0; left: 0 ; /*Aligne bien tout en haut bas gauche et droite*/
 }
 
 .alignement_main {
@@ -38,4 +40,5 @@
 
 body {
     margin: auto;
+    padding: auto;
 }
