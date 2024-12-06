@@ -10,6 +10,7 @@
     background : linear-gradient(to top left,orangered,orange);
     align-items: center;
     justify-content: center;
+    position: absolute; top: 0; right: 0; left: 0; /*Aligne bien tout en haut gauche et droite pour le header*/
 }
 
 .contact{
@@ -24,7 +25,7 @@
    
     justify-content: space-between;
     background : linear-gradient(to bottom right,orangered,orange); 
-    position: absolute; bottom: 0; right: 0; left: 0 ; /*Aligne bien tout en haut bas gauche et droite*/
+    position: absolute; bottom: 0; right: 0; left: 0 ; /*Aligne bien tout en bas gauche et droite pour le footer*/
 }
 
 .alignement_main {
