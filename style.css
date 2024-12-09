@@ -10,7 +10,7 @@
     background : linear-gradient(to top left,orangered,orange);
     align-items: center;
     justify-content: center;
-    position: absolute; top: 0; right: 0; left: 0; /*Aligne bien tout en haut gauche et droite pour le header*/
+    position: relative;
 }
 
 .contact{
