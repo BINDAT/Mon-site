@@ -42,3 +42,29 @@ body {
     margin: auto;
     padding: auto;
 }
+
+#bloc_langueduolingo:hover{
+    border-radius: 20px 20px 20px 20px;
+}
+
+.bloc_langue{
+    display: inline-block;
+    background: linear-gradient(to top left, rgb(4, 206, 4),rgb(26, 216, 105));
+    color: rgb(214, 122, 1);
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    width: auto;
+    border-radius: 20px;
+    font-style: italic;
+}
+
+.bloc_programme{
+    display: inline-block;
+    background: linear-gradient(to top left, rgb(105, 25, 233),rgb(12, 25, 207));
+    color: rgb(214, 122, 1);
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    width: auto;
+    border-radius: 20px;
+    font-style: italic;
+}
