@@ -61,7 +61,7 @@ body {
 .bloc_programme{
     display: inline-block;
     background: linear-gradient(to top left, rgb(105, 25, 233),rgb(12, 25, 207));
-    color: rgb(214, 122, 1);
+    color: rgb(238, 47, 47);
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
     width: auto;
