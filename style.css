@@ -22,6 +22,7 @@
 .alignement_footer {
     display:flex;
     align-items: center;
+    padding: 5px;
     justify-content: space-between;
     background : linear-gradient(to bottom left,rgb(233, 73, 15),rgb(221, 157, 39)); 
     position: absolute; bottom: 0; right: 0; left: 0 ; /*Aligne bien tout en bas gauche et droite pour le footer*/
@@ -45,7 +46,23 @@ body {
 
 #bloc_langueduolingo:hover{
     border-radius: 20px 20px 20px 20px;
+    transition: 0.3s ease-in-out;
 }
+#bloc_openclassroom:hover{
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.3s ease-in-out;
+}
+#bloc_mimo:hover{
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.3s ease-in-out;
+}
+#bloc_wildlearner:hover{
+    border-radius: 20px 20px 20px 20px;
+    background-color: bisque;
+    transition: 0.3s ease-in-out;
+}
+
+
 
 .bloc_langue{
     display: inline-block;
