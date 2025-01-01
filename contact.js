@@ -21,3 +21,11 @@ function duolingo(){
 function wildlearner(){
     window.open('https://wildlearner.com/profile/maxime-rigaud3790231/','_blank')
 }
+
+function openclassroom(){
+    window.open('https://openclassrooms.com/fr/','_blank')
+}
+
+function mimo(){
+    window.open('https://mimo.org/web/login?redirectUrl=https%3A%2F%2Fmimo.org%2Fweb%2F219%2Fsection%2F13')
+}
