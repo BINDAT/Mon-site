@@ -60,6 +60,7 @@ body {
 #bloc_wildlearner:hover{
     border-radius: 20px 20px 20px 20px;
     background-color: bisque;
+    opacity: 0.5;
     transition: 0.3s ease-in-out;
 }
 
