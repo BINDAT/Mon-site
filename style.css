@@ -97,11 +97,9 @@ body {
     border-radius: 20px;
     font-style: italic;
 }
-#livre_c_pourlesnuls:hover{
+#livre_pourlesnuls:hover{
     opacity: 0.1;
     background-color: black;
-    color: whitesmoke;
     border-radius: 20px 20px 20px 20px;
     transition: 0.3s ease-in-out;
-    <div>apprendre à programmer en C pour les nuls</div>
 }
