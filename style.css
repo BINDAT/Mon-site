@@ -105,6 +105,7 @@ body {
     transition: 0.3s ease-in-out;
 }
 #lumière_ico:hover{
-    box-shadow: rgb(86, 70, 230,0.7);
-    transition: 0.3;
+    box-shadow: 0px 0px 20px rgba(19, 223, 87, 0.9);
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.3s ease-in-out;
 }
