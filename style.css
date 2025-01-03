@@ -64,8 +64,6 @@ body {
     transition: 0.3s ease-in-out;
 }
 
-
-
 .bloc_langue{
     display: inline-block;
     background: linear-gradient(to top left, rgb(4, 206, 4),rgb(26, 216, 105));
@@ -104,6 +102,22 @@ body {
     border-radius: 20px 20px 20px 20px;
     transition: 0.3s ease-in-out;
 }
+
+.bloc_parrainage{
+    display: inline-block;
+    background: linear-gradient(to top left, rgb(199, 151, 18),rgb(168, 166, 166));
+    color: rgb(247, 39, 12);
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    width: auto;
+    border-radius: 20px;
+    font-style: italic;
+}
+#bloc_parrainage:hover{
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.3s ease-in-out;
+}
+
 #lumière_ico:hover{
     box-shadow: 0px 0px 20px rgb(253, 2, 127);
     border-radius: 20px 20px 20px 20px;
