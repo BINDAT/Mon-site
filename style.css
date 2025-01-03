@@ -2,7 +2,7 @@
     width: 200px;
     height: 200px;
     margin: 5px;
-    border-radius: 200px 200px 200px 200px;
+    border-radius: 200px;
 }
 
 .introduction_bloc {
@@ -19,20 +19,21 @@
     margin: 5px;   
 }
 
-.alignement_footer {
-    display:flex;
+.alignement_footer{  
+    display: flex;
+    background : linear-gradient(to bottom left,rgb(233, 73, 15),rgb(221, 157, 39));
     align-items: center;
-    padding: 5px;
     justify-content: space-between;
-    background : linear-gradient(to bottom left,rgb(233, 73, 15),rgb(221, 157, 39)); 
-    position: absolute; bottom: 0; right: 0; left: 0 ; /*Aligne bien tout en bas gauche et droite pour le footer*/
-}
+    position: relative;
+    padding: 8px;
+}  
 
 .alignement_main {
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
+
 .occupation_bloc {
     width: 130px;
     height: 130px;
@@ -43,22 +44,23 @@ body {
     margin: auto;
     padding: auto;
     background-color: cornsilk;
+    position: absolute; top:0;bottom:0;left:0;right:0;
 }
 
 #bloc_langueduolingo:hover{
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     transition: 0.3s ease-in-out;
 }
 #bloc_openclassroom:hover{
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     transition: 0.3s ease-in-out;
 }
 #bloc_mimo:hover{
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     transition: 0.3s ease-in-out;
 }
 #bloc_wildlearner:hover{
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     background-color: bisque;
     opacity: 0.5;
     transition: 0.3s ease-in-out;
@@ -68,8 +70,8 @@ body {
     display: inline-block;
     background: linear-gradient(to top left, rgb(4, 206, 4),rgb(26, 216, 105));
     color: rgb(214, 122, 1);
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    margin: 10px;
     width: auto;
     border-radius: 20px;
     font-style: italic;
@@ -79,8 +81,8 @@ body {
     display: inline-block;
     background: linear-gradient(to top left, rgb(105, 25, 233),rgb(12, 25, 207));
     color: rgb(238, 47, 47);
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    margin: 10px;
     width: auto;
     border-radius: 20px;
     font-style: italic;
@@ -90,8 +92,8 @@ body {
     display: inline-block;
     background: linear-gradient(to top left, rgb(255, 255, 255),rgb(0, 0, 0));
     color: rgb(196, 184, 14);
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    margin: 10px;
     width: auto;
     border-radius: 20px;
     font-style: italic;
@@ -107,19 +109,24 @@ body {
     display: inline-block;
     background: linear-gradient(to top left, rgb(199, 151, 18),rgb(168, 166, 166));
     color: rgb(247, 39, 12);
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    margin: 10px;
     width: auto;
     border-radius: 20px;
     font-style: italic;
 }
 #bloc_parrainage:hover{
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     transition: 0.3s ease-in-out;
 }
 
 #lumière_ico:hover{
     box-shadow: 0px 0px 20px rgb(253, 2, 127);
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     transition: 0.3s ease-in-out;
+}
+@media screen and (max-width: 700px) {
+    .avatar {
+        display: none;
+    }
 }
