@@ -6,11 +6,11 @@ function olivre(livre) {
             break;
         
         case 'Apprendre_à_programmer_en_C_pour_les_nuls': 
-            window.open('https://www.decitre.fr/ebooks/apprendre-a-programmer-en-c-pour-les-nuls-9782412024140_9782412024140_3.html');
+            window.open('https://www.decitre.fr/ebooks/apprendre-a-programmer-en-c-pour-les-nuls-9782412024140_9782412024140_3.html','_blank');
             break;
         
         case 'Manuel_du_hacker':
-            window.open('https://www.amazon.fr/dp/B08JDXBLSZ?ref=ppx_yo2ov_dt_b_fed_asin_title');
+            window.open('https://www.amazon.fr/dp/B08JDXBLSZ?ref=ppx_yo2ov_dt_b_fed_asin_title','_blank');
             break;
     }
 }
@@ -47,7 +47,12 @@ function ocontact(contact){
             break;
         
         case 'mimo':
-            window.open('https://mimo.org/web/login?redirectUrl=https%3A%2F%2Fmimo.org%2Fweb%2F219%2Fsection%2F13');
+            window.open('https://mimo.org/web/login?redirectUrl=https%3A%2F%2Fmimo.org%2Fweb%2F219%2Fsection%2F13','_blank');
+            break;
+    
+        case 'mega.nz':
+            window.open('https://mega.nz/folder/ZbZ3UCgA#Ig1z6tdvtZsUZgHSZa0DPg','_blank');
+            window.open('https://mega.nz/folder/4agEHBQT#Vn0tWydwDc-rrd1xgcwB9w','_blank')
             break;
     }
 }
