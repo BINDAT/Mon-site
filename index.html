@@ -15,8 +15,9 @@
             <header>
                 <section class="introduction_bloc">
                 <div>
-                    <h1>Rigaud Maxime<br>Apprentis Codeur</h1>
-                    <p>Apprentis dans le monde de la programmation informatique <br>
+                    <button onclick="english()" id="btrad">English</button>
+                    <h1 id="english_titre_bloc_intro">Rigaud Maxime<br>Apprentis Codeur</h1>
+                    <p id="paragraphe_intro">Apprentis dans le monde de la programmation informatique <br>
                     je serait ravi de mettre à disposition mon savoir.
                     </p>
                 </div>  
@@ -29,29 +30,29 @@
             <main>
                 <section>
                     <div>
-                        <h2>Mes lectures & occupations :</h2><br>
+                        <h2 id="sous_titre_activités">Mes lectures & occupations :</h2><br>
                     </div>
-                    <div class="bloc_langue">
-                        <p>Apprentissage de plusieurs langues sur Duolingo</p>
+                    <div class="bloc_langue" >
+                        <p id="activité_langue">Apprentissage de plusieurs langues sur Duolingo</p>
                         <img class="occupation_bloc" id="bloc_langueduolingo" src="https://play-lh.googleusercontent.com/DsyWoouXk7psjF7DCG6MJj_rX9RR9-liQskZXoKvcqQIu_ybUm4F5RntxWh1IZAVSLI=s94" onclick="ocontact('duolingo')" >
                     </div>
                     <div class="bloc_programme">
-                        <p>Apprentissage de langage de programmation avec Mimo, WildLearner et OpenClassRoom</p>
+                        <p id="activité_informatique">Apprentissage de langage de programmation avec Mimo, WildLearner et OpenClassRoom</p>
                         <img class="occupation_bloc" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgC4z9Q7FvTI-cGzHglUk0mIDW0lN6g9DkbA&s" id="bloc_openclassroom" onclick="ocontact('openclassroom')">
                         <img class="occupation_bloc" src="https://play-lh.googleusercontent.com/qPfmmEDFhGVmIXIKpmfbQeH6vXygXotzj6ied-j2el0YIB36fApN32XoVDrGoMQZ11Q" id="bloc_mimo" onclick="ocontact('mimo')">
                         <img class="occupation_bloc" src="https://play-lh.googleusercontent.com/4960jPTEkZ8iDr5GXNaKemU_htUU6Hm2FOetCbs3fAR_DDKS6MDfXM5lFXfWiSEY12g" id="bloc_wildlearner" onclick="ocontact('wildlearner')">
                     </div>
-                    <div class="bloc_livre">
-                        <p>Mes lectures :</p>
+                    <div class="bloc_livre" >
+                        <p id="livres">Mes lectures :</p>
                         <img class="occupation_bloc" src="img/Resized_20231005_120706_7744.jpeg" id="livre_pourlesnuls" onclick="olivre('Apprendre_à_programmer_en_C_pour_les_nuls')">
                         <img class="occupation_bloc" src="img/20250102_200552.jpg" id="livre_pourlesnuls" onclick="olivre('Python_pour_les_Nuls')">
                         <img class="occupation_bloc" src="img/20250102_203936.jpg" id="livre_pourlesnuls" onclick="olivre('Manuel_du_hacker')">
                     </div><br>
                     <div class="bloc_parrainage">
-                        <p>Lien de parrainage :</p>
+                        <p id="parrainage1">Lien de parrainage :</p>
                         <span>
-                            <img id="bloc_parrainage" class="occupation_bloc" src="https://play-lh.googleusercontent.com/jgoOUOFt1N9ahKGlQNuXidA1-cHIHc0sdGEy7ncRzGLJbRs9ZyfbQ4fh-9x9rx11oKI=w240-h480" onclick="oparrainage('Bitcoin_mining')"><br>
-                            <sub>KVGPFM <br> code d'invitation de l'application <br> Bitcoin Mining</sub>
+                            <img id="bloc_parrainage"  class="occupation_bloc" src="https://play-lh.googleusercontent.com/jgoOUOFt1N9ahKGlQNuXidA1-cHIHc0sdGEy7ncRzGLJbRs9ZyfbQ4fh-9x9rx11oKI=w240-h480" onclick="oparrainage('Bitcoin_mining')"><br>
+                            <sub id="parrainage">KVGPFM <br> code d'invitation de l'application <br> Bitcoin Mining</sub>
                         </span>
                     </div>
                 </section>
@@ -60,7 +61,7 @@
             <footer >
                 <sections class="alignement_footer">
                     <div>
-                        <h4>Mes contacts :</h4>
+                        <h4 id="tradcontact">Mes contacts :</h4>
                         <img id="lumière_ico" class="contact" src="ico/linkedin.png" alt="https://www.flaticon.com/fr/icones-gratuites/linkedin" onclick="ocontact('linkedin')">
                         <img id="lumière_ico" class="contact" src="ico/e-mail.png" alt="https://www.flaticon.com/fr/icones-animees-gratuite/email" onclick="ocontact('mail')">
                         <img id="lumière_ico" class="contact" src="ico/curriculum-vitae.png" alt="https://www.flaticon.com/fr/icones-animees-gratuite/curriculum-vitae" onclick="ocontact('cv')"><br>
@@ -73,7 +74,7 @@
                     </div>
 
                     <div class="sources">    
-                        <h4>Mes sources :</h4>
+                        <h4 id="tradsources">Mes sources :</h4>
                         <a href="https://www.flaticon.com/fr/auteurs/riajulislam" target="_blank" title="github icônes">Github icônes créées par riajulislam - Flaticon</a><br>
                         <a href="https://www.flaticon.com/fr/auteurs/hj-studio" target="_blank" title="enveloppe icônes">Enveloppe icônes créées par HJ Studio - Flaticon</a><br>
                         <a href="https://www.flaticon.com/fr/auteurs/muhammad-usman" target="_blank" title="curriculum vitae icônes">Curriculum vitae icônes créées par Muhammad_Usman - Flaticon</a><br>
@@ -85,3 +86,4 @@
         </body>
     </html>
     <script src="index.js"></script>
+    <script src="langue.js"></script>
