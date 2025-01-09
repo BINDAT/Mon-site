@@ -125,6 +125,7 @@ body {
     box-shadow: 0px 0px 20px rgb(253, 2, 127);
     border-radius: 20px;
     transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
 @media screen and (max-width: 700px) {
     .avatar, .sources {
