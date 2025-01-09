@@ -38,6 +38,7 @@
     width: 130px;
     height: 130px;
     margin: 5px;
+    cursor:pointer;
 }
 
 body {
@@ -129,4 +130,7 @@ body {
     .avatar, .sources {
         display: none;
     }
+}
+button{
+    cursor: pointer;
 }
