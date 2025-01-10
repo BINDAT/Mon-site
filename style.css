@@ -134,4 +134,7 @@ body {
 }
 button{
     cursor: pointer;
+    background-color: yellow;
+    border-radius: 10px;
+    border :4px double yellowgreen;
 }
