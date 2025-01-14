@@ -1,0 +1,97 @@
+function olivre(livre) {
+    switch(livre) 
+    {
+        case 'Python_pour_les_Nuls':
+            window.open('https://www.decitre.fr/livres/python-pour-les-nuls-9782412088838.html','_blank');
+            break;
+        
+        case 'Apprendre_à_programmer_en_C_pour_les_nuls': 
+            window.open('https://www.decitre.fr/ebooks/apprendre-a-programmer-en-c-pour-les-nuls-9782412024140_9782412024140_3.html','_blank');
+            break;
+        
+        case 'Manuel_du_hacker':
+            window.open('https://www.amazon.fr/dp/B08JDXBLSZ?ref=ppx_yo2ov_dt_b_fed_asin_title','_blank');
+            break;
+    }
+}
+
+function ocontact(contact){
+    switch (contact) 
+    {
+        case 'github':
+            window.open('https://github.com/BINDAT','_blank');
+            break;
+        
+        case 'linkedin':
+            window.open('https://www.linkedin.com/in/maxime-rigaud-604235291/','_blank');
+            break;
+        
+        case 'mail':
+            location.href = 'mailto:infs693@proton.me';
+            break;
+
+        case 'cv':
+            window.open('CV.pdf'); 
+            break;
+        
+        case 'duolingo':
+            window.open('https://www.duolingo.com/profile/Infs693','_blank');
+            break;
+
+        case 'wildlearner':
+            window.open('https://wildlearner.com/profile/maxime-rigaud3790231/','_blank');
+            break;
+        
+        case 'openclassroom':
+            window.open('https://openclassrooms.com/fr/','_blank');
+            break;
+        
+        case 'mimo':
+            window.open('https://mimo.org/web/login?redirectUrl=https%3A%2F%2Fmimo.org%2Fweb%2F219%2Fsection%2F13','_blank');
+            break;
+    
+        case 'mega.nz':
+            window.open('https://mega.nz/folder/ZbZ3UCgA#Ig1z6tdvtZsUZgHSZa0DPg','_blank');
+            window.open('https://mega.nz/folder/4agEHBQT#Vn0tWydwDc-rrd1xgcwB9w','_blank')
+            break;
+    }
+}
+
+function oparrainage(parrainage) {
+    switch (parrainage) {
+        case 'Bitcoin_mining':
+            window.open('https://play.google.com/store/apps/details?id=bitcoin.minning.com','_blank')
+            window.open('https://apps.apple.com/us/app/bitcoin-mining-cloud-mining/id6503180820','_blank')
+            break;
+    }
+}
+
+function olangue(langue) {
+    switch (langue) {
+        case 'français':
+            document.getElementById("langue_titre_bloc_intro").innerHTML = "Rigaud Maxime <br> Apprentis Codeur";
+            document.getElementById("paragraphe_intro").innerHTML = "Apprentis dans le monde de la programmation informatique <br> je serait ravi de mettre à disposition mon savoir."
+            document.getElementById("sous_titre_activités").innerHTML = "Mes lectures & occupations :";
+            document.getElementById("activité_langue").innerHTML = "Apprentissage de plusieurs langues sur Duolingo";
+            document.getElementById("activité_informatique").innerHTML = "Apprentissage de langage de programmation avec Mimo, WildLearner et OpenClassRoom";
+            document.getElementById("livres").innerHTML = "Mes lectures :";
+            document.getElementById("parrainage1").innerHTML = "Lien de parrainage :";
+            document.getElementById("parrainage").innerHTML = "KVGPFM <br> code d'invitation de l'application <br> Bitcoin Mining";
+            document.getElementById("tradcontact").innerHTML = "Mes contacts :"
+            document.getElementById("tradsources").innerHTML = "Mes sources :"
+            break;
+        
+        case 'english':
+            document.getElementById("langue_titre_bloc_intro").innerHTML = "Rigaud Maxime <br> Apprendice coder";
+            document.getElementById("paragraphe_intro").innerHTML = "Apprentices in the world of computer programming <br> I would be delighted to make my knowledge available."
+            document.getElementById("sous_titre_activités").innerHTML = "My readings and occupations :";
+            document.getElementById("activité_langue").innerHTML = "Learning several languages on Duolingo";
+            document.getElementById("activité_informatique").innerHTML = "Learning programming language with Mimo, WildLearner and OpenClassRoom";
+            document.getElementById("livres").innerHTML = "My readings :";
+            document.getElementById("parrainage1").innerHTML = "Sponsorship link :";
+            document.getElementById("parrainage").innerHTML = "KVGPFM <br> Invitation code for the application <br> Bitcoin Mining";
+            document.getElementById("tradcontact").innerHTML = "My contacts :"
+            document.getElementById("tradsources").innerHTML = "My sources :"
+            break;
+    }
+}
