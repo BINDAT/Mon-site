@@ -138,3 +138,17 @@ button{
     border-radius: 10px;
     border :4px double yellowgreen;
 }
+#bloc_code{
+    border-radius: 10px;
+    border: 4px solid purple;
+    background-color: black;
+    color: azure;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#pres_code{
+    border-radius: 10px;
+    border: 4px dotted plum;
+    background-color: whitesmoke;
+}
