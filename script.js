@@ -79,6 +79,7 @@ function olangue(langue) {
             document.getElementById("parrainage").innerHTML = "KVGPFM <br> code d'invitation de l'application <br> Bitcoin Mining";
             document.getElementById("tradcontact").innerHTML = "Mes contacts :"
             document.getElementById("tradsources").innerHTML = "Mes sources :"
+            document.getElementById("tradcode").innerHTML = "Pour les curieux"
             break;
         
         case 'english':
@@ -92,6 +93,7 @@ function olangue(langue) {
             document.getElementById("parrainage").innerHTML = "KVGPFM <br> Invitation code for the application <br> Bitcoin Mining";
             document.getElementById("tradcontact").innerHTML = "My contacts :"
             document.getElementById("tradsources").innerHTML = "My sources :"
+            document.getElementById("tradcode").innerHTML = "For curious"
             break;
     }
 }
