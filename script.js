@@ -27,7 +27,7 @@ function ocontact(contact){
             break;
         
         case 'mail':
-            location.href = 'mailto:infs693@proton.me';
+            location.href = 'mailto:maxim.rigaud@gmail.com';
             break;
 
         case 'cv':
