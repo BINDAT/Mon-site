@@ -52,7 +52,11 @@ function ocontact(contact){
     
         case 'mega.nz':
             window.open('https://mega.nz/folder/ZbZ3UCgA#Ig1z6tdvtZsUZgHSZa0DPg','_blank');
-            window.open('https://mega.nz/folder/4agEHBQT#Vn0tWydwDc-rrd1xgcwB9w','_blank')
+            window.open('https://mega.nz/folder/4agEHBQT#Vn0tWydwDc-rrd1xgcwB9w','_blank');
+            break;
+        
+        case 'sololearn':
+            window.open('https://www.sololearn.com/fr/profile/31914146');
             break;
     }
 }
