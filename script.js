@@ -58,6 +58,10 @@ function ocontact(contact){
         case 'sololearn':
             window.open('https://www.sololearn.com/fr/profile/31914146');
             break;
+        
+        case 'telephone':
+            window.alert("06.59.06.10.59");
+            break;
     }
 }
 

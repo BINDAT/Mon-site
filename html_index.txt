@@ -83,7 +83,9 @@
                         <h4 id="tradcontact">Mes contacts :</h4>
                         <img id="lumière_ico" class="contact" src="ico/linkedin.png" alt="https://www.flaticon.com/fr/icones-gratuites/linkedin" onclick="ocontact('linkedin')">
                         <img id="lumière_ico" class="contact" src="ico/e-mail.png" alt="https://www.flaticon.com/fr/icones-animees-gratuite/email" onclick="ocontact('mail')">
-                        <img id="lumière_ico" class="contact" src="ico/curriculum-vitae.png" alt="https://www.flaticon.com/fr/icones-animees-gratuite/curriculum-vitae" onclick="ocontact('cv')"><br>
+                        <img id="lumière_ico" class="contact" src="ico/curriculum-vitae.png" alt="https://www.flaticon.com/fr/icones-animees-gratuite/curriculum-vitae" onclick="ocontact('cv')">
+                        <img id="lumière_ico" class="contact" src="ico/telephone.png" alt="https://www.flaticon.com/fr/icone-gratuite/telephone_18080229" onclick="ocontact('telephone')" >
+                        <br>
                     </div>
                     
                     <div>
@@ -98,7 +100,8 @@
                         <a href="https://www.flaticon.com/fr/auteurs/hj-studio" target="_blank" title="enveloppe icônes">Enveloppe icônes créées par HJ Studio - Flaticon</a><br>
                         <a href="https://www.flaticon.com/fr/auteurs/muhammad-usman" target="_blank" title="curriculum vitae icônes">Curriculum vitae icônes créées par Muhammad_Usman - Flaticon</a><br>
                         <a href="https://www.flaticon.com/fr/auteurs/riajulislam" target="_blank" title="linkedin icônes">Linkedin icônes créées par riajulislam - Flaticon</a><br>
-                        <a href="https://play.google.com/store/apps/dev?id=5566309428969472081&hl=ln" target="_blank" title="mega.nz icône">Mega ltd</a>
+                        <a href="https://play.google.com/store/apps/dev?id=5566309428969472081&hl=ln" target="_blank" title="mega.nz icône">Mega ltd</a><br>
+                        <a href="https://www.flaticon.com/fr/icone-gratuite/telephone_18080229" target="_blank" title="phone">Appel téléphonique icônes créées par riajulislam - Flaticon</a>
                     </div>
                 </sections>
             </footer>
