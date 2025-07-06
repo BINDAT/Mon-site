@@ -35,7 +35,7 @@ function ocontact(contact){
             break;
         
         case 'duolingo':
-            window.open('https://www.duolingo.com/profile/Infs693','_blank');
+            window.open('https://cb.run/xHZz','_blank');
             break;
 
         case 'wildlearner':
