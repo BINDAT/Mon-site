@@ -19,11 +19,11 @@ function ocontact(contact){
     switch (contact) 
     {
         case 'github':
-            window.open('https://github.com/BINDAT','_blank');
+            window.open('https://cb.run/AW8A','_blank');
             break;
         
         case 'linkedin':
-            window.open('https://www.linkedin.com/in/maxime-rigaud-604235291/','_blank');
+            window.open('https://cb.run/MMZT','_blank');
             break;
         
         case 'mail':
@@ -39,7 +39,7 @@ function ocontact(contact){
             break;
 
         case 'wildlearner':
-            window.open('https://wildlearner.com/profile/maxime-rigaud3790231/','_blank');
+            window.open('https://cb.run/l8w5','_blank');
             break;
         
         case 'openclassroom':
@@ -51,12 +51,12 @@ function ocontact(contact){
             break;
     
         case 'mega.nz':
-            window.open('https://mega.nz/folder/ZbZ3UCgA#Ig1z6tdvtZsUZgHSZa0DPg','_blank');
-            window.open('https://mega.nz/folder/4agEHBQT#Vn0tWydwDc-rrd1xgcwB9w','_blank');
+            window.open('https://cb.run/8mH6','_blank');
+            window.open('https://cb.run/Ng79','_blank');
             break;
         
         case 'sololearn':
-            window.open('https://www.sololearn.com/fr/profile/31914146');
+            window.open('https://cb.run/YgRs');
             break;
         
         case 'telephone':
