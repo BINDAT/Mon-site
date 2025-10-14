@@ -68,8 +68,7 @@ function ocontact(contact){
 function oparrainage(parrainage) {
     switch (parrainage) {
         case 'Bitcoin_mining':
-            window.open('https://play.google.com/store/apps/details?id=bitcoin.minning.com','_blank')
-            window.open('https://apps.apple.com/us/app/bitcoin-mining-cloud-mining/id6503180820','_blank')
+            window.open('https://gomining.com/og?ref=0ntfA&ogTagId=214854','_blank')
             break;
     }
 }

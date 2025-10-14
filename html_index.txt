@@ -53,7 +53,7 @@
                     <div class="bloc_parrainage">
                         <p id="parrainage1">Lien de parrainage :</p>
                         <span>
-                            <img id="bloc_parrainage" class="occupation_bloc" src="https://gomining.com/og?ref=0ntfA&ogTagId=214854" onclick="oparrainage('Bitcoin_mining')"><br>
+                            <img id="bloc_parrainage" class="occupation_bloc" src="https://play-lh.googleusercontent.com/2GGEtGfH7YeGx9hNcK9fCt6GzE3_kPuHafDPebNiM45Z89ztwWYelaEey9a5E8J4UtQ=w240-h480" onclick="oparrainage('Bitcoin_mining')"><br>
                             <sub id="parrainage">0ntfA <br> code d'invitation de l'application <br> Gomining</sub>
                         </span>
                     </div>
