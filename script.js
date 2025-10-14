@@ -84,7 +84,7 @@ function olangue(langue) {
             document.getElementById("activité_informatique").innerHTML = "Apprentissage de langage de programmation avec anciennement Mimo, WildLearner et OpenClassRoom";
             document.getElementById("livres").innerHTML = "Mes lectures :";
             document.getElementById("parrainage1").innerHTML = "Lien de parrainage :";
-            document.getElementById("parrainage").innerHTML = "KVGPFM <br> code d'invitation de l'application <br> Bitcoin Mining";
+            document.getElementById("parrainage").innerHTML = "0ntfA <br> code d'invitation de l'application <br> Gomining";
             document.getElementById("tradcontact").innerHTML = "Mes contacts :"
             document.getElementById("tradsources").innerHTML = "Mes sources :"
             document.getElementById("tradcode").innerHTML = "Pour les curieux"
@@ -98,7 +98,7 @@ function olangue(langue) {
             document.getElementById("activité_informatique").innerHTML = "Learning programming language with previously Mimo, WildLearner and OpenClassRoom";
             document.getElementById("livres").innerHTML = "My readings :";
             document.getElementById("parrainage1").innerHTML = "Sponsorship link :";
-            document.getElementById("parrainage").innerHTML = "KVGPFM <br> Invitation code for the application <br> Bitcoin Mining";
+            document.getElementById("parrainage").innerHTML = "0ntfA <br> Invitation code for the application <br> Gomining";
             document.getElementById("tradcontact").innerHTML = "My contacts :"
             document.getElementById("tradsources").innerHTML = "My sources :"
             document.getElementById("tradcode").innerHTML = "For curious"
