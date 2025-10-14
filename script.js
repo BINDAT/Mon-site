@@ -67,7 +67,7 @@ function ocontact(contact){
 
 function oparrainage(parrainage) {
     switch (parrainage) {
-        case 'Bitcoin_mining':
+        case 'gomining':
             window.open('https://gomining.com/og?ref=0ntfA&ogTagId=214854','_blank')
             break;
     }
