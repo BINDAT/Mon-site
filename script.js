@@ -51,10 +51,10 @@ function ocontact(contact){
             break;
     
         case 'terabox_lang':
-            window.open('https://1024terabox.com/s/1KzWs5IEc7yDJS_ONaDbFdg','_blank');
+            window.open('https://cb.run/Alr7','_blank');
             break;
         case 'terabox_dev':
-            window.open('https://1024terabox.com/s/1_1eWHzFBNxUoP2lQgVXz4g','_blank');
+            window.open('https://cb.run/3qkw','_blank');
             break;
         
         case 'sololearn':
