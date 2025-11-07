@@ -91,7 +91,8 @@
                     <div>
                         <h4>Portfolio :</h4>
                         <img class="lumière_ico contact" src="ico/github.png" alt="https://www.flaticon.com/fr/icones-gratuites/github" onclick="ocontact('github')">
-                        <img class="lumière_ico contact" src="https://play-lh.googleusercontent.com/wYcdVXv6i8jN2VQ7cqr-aAnZiUiTLD62AB_GMC7d1btLgPWA_XO9ZJsrzAcJ-3MgJ3Q=s94" alt="Mega.nz" onclick="ocontact('mega.nz')">
+                        <img class="lumière_ico contact" src="https://play-lh.googleusercontent.com/tfXDLGwtSfdc0QcHWXc0OoIJ7RWI6-80JH2gjF_YzZHKi6WqEC85NgK8xofrsb8LY0E" alt="Terabox_dev" onclick="ocontact('terabox_dev')">
+                        <img class="lumière_ico contact" src="https://play-lh.googleusercontent.com/tfXDLGwtSfdc0QcHWXc0OoIJ7RWI6-80JH2gjF_YzZHKi6WqEC85NgK8xofrsb8LY0E" alt="Terabox_lang" onclick="ocontact('terabox_lang')">
                     </div>
 
                     <div class="sources">    
@@ -100,7 +101,6 @@
                         <a href="https://www.flaticon.com/fr/auteurs/hj-studio" target="_blank" title="enveloppe icônes">Enveloppe icônes créées par HJ Studio - Flaticon</a><br>
                         <a href="https://www.flaticon.com/fr/auteurs/muhammad-usman" target="_blank" title="curriculum vitae icônes">Curriculum vitae icônes créées par Muhammad_Usman - Flaticon</a><br>
                         <a href="https://www.flaticon.com/fr/auteurs/riajulislam" target="_blank" title="linkedin icônes">Linkedin icônes créées par riajulislam - Flaticon</a><br>
-                        <a href="https://play.google.com/store/apps/dev?id=5566309428969472081&hl=ln" target="_blank" title="mega.nz icône">Mega ltd</a><br>
                         <a href="https://www.flaticon.com/fr/icone-gratuite/telephone_18080229" target="_blank" title="phone">Appel téléphonique icônes créées par riajulislam - Flaticon</a>
                     </div>
                 </sections>

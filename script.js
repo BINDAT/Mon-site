@@ -50,9 +50,11 @@ function ocontact(contact){
             window.open('https://mimo.org/web/login?redirectUrl=https%3A%2F%2Fmimo.org%2Fweb%2F219%2Fsection%2F13','_blank');
             break;
     
-        case 'mega.nz':
-            window.open('https://cb.run/8mH6','_blank');
-            window.open('https://cb.run/Ng79','_blank');
+        case 'terabox_lang':
+            window.open('https://1024terabox.com/s/1KzWs5IEc7yDJS_ONaDbFdg','_blank');
+            break;
+        case 'terabox_dev':
+            window.open('https://1024terabox.com/s/1_1eWHzFBNxUoP2lQgVXz4g','_blank');
             break;
         
         case 'sololearn':
