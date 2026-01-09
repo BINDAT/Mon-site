@@ -26,10 +26,6 @@ function ocontact(contact){
             window.open('https://cb.run/MMZT','_blank');
             break;
         
-        case 'mail':
-            location.href = 'mailto:maxim.rigaud@gmail.com';
-            break;
-
         case 'cv':
             window.open('CV.pdf'); 
             break;
@@ -59,10 +55,6 @@ function ocontact(contact){
         
         case 'sololearn':
             window.open('https://cb.run/YgRs');
-            break;
-        
-        case 'telephone':
-            window.alert("06.59.06.10.59");
             break;
     }
 }
