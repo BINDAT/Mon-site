@@ -32,25 +32,25 @@
                     </div>
                     <div class="bloc_langue" >
                         <p id="activité_langue">Apprentissage de plusieurs langues sur Duolingo</p>
-                        <img class="occupation_bloc" id="bloc_langueduolingo" src="https://play-lh.googleusercontent.com/DsyWoouXk7psjF7DCG6MJj_rX9RR9-liQskZXoKvcqQIu_ybUm4F5RntxWh1IZAVSLI=s94" onclick="ocontact('duolingo')" >
+                        <img class="occupation_bloc" id="bloc_langueduolingo" src="https://play-lh.googleusercontent.com/DsyWoouXk7psjF7DCG6MJj_rX9RR9-liQskZXoKvcqQIu_ybUm4F5RntxWh1IZAVSLI=s94" onclick="ocontact('duolingo')" title="Duolingo Maxime">
                     </div>
                     <div class="bloc_programme">
                         <p id="activité_informatique">Apprentissage de langage de programmation avec anciennement Mimo, WildLearner et OpenClassRoom</p>
-                        <img class="occupation_bloc" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgC4z9Q7FvTI-cGzHglUk0mIDW0lN6g9DkbA&s" id="bloc_openclassroom" onclick="ocontact('openclassroom')">
-                        <img class="occupation_bloc" src="https://play-lh.googleusercontent.com/qPfmmEDFhGVmIXIKpmfbQeH6vXygXotzj6ied-j2el0YIB36fApN32XoVDrGoMQZ11Q" id="bloc_mimo" onclick="ocontact('mimo')">
-                        <img class="occupation_bloc" src="https://play-lh.googleusercontent.com/4960jPTEkZ8iDr5GXNaKemU_htUU6Hm2FOetCbs3fAR_DDKS6MDfXM5lFXfWiSEY12g" id="bloc_wildlearner" onclick="ocontact('wildlearner')">
-                        <img class="occupation_bloc" src="https://play-lh.googleusercontent.com/uzsxAOZxm6OLrNXTVXRa1L0yonDIKDbkbDz533VcAUfprUBuaqua8-v1FW_Am-8ZmKI=w240-h480" alt="bloc_sololearn" id="bloc_sololearn" onclick="ocontact('sololearn')">
+                        <img class="occupation_bloc" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgC4z9Q7FvTI-cGzHglUk0mIDW0lN6g9DkbA&s" id="bloc_openclassroom" onclick="ocontact('openclassroom')" title="OpenClassRoom Maxime">
+                        <img class="occupation_bloc" src="https://play-lh.googleusercontent.com/qPfmmEDFhGVmIXIKpmfbQeH6vXygXotzj6ied-j2el0YIB36fApN32XoVDrGoMQZ11Q" id="bloc_mimo" onclick="ocontact('mimo')" title="Mimo Maxime">
+                        <img class="occupation_bloc" src="https://play-lh.googleusercontent.com/4960jPTEkZ8iDr5GXNaKemU_htUU6Hm2FOetCbs3fAR_DDKS6MDfXM5lFXfWiSEY12g" id="bloc_wildlearner" onclick="ocontact('wildlearner')" title="WildLearner Maxime">
+                        <img class="occupation_bloc" src="https://play-lh.googleusercontent.com/uzsxAOZxm6OLrNXTVXRa1L0yonDIKDbkbDz533VcAUfprUBuaqua8-v1FW_Am-8ZmKI=w240-h480" alt="bloc_sololearn" id="bloc_sololearn" onclick="ocontact('sololearn')" title="SoloLearn Maxime">
                     </div>
                     <div class="bloc_livre" >
                         <p id="livres">Mes lectures :</p>
-                        <img class="occupation_bloc livre_pourlesnuls" src="img/Resized_20231005_120706_7744.jpeg"  onclick="olivre('Apprendre_à_programmer_en_C_pour_les_nuls')">
-                        <img class="occupation_bloc livre_pourlesnuls" src="img/20250102_200552.jpg"  onclick="olivre('Python_pour_les_Nuls')">
-                        <img class="occupation_bloc livre_pourlesnuls" src="img/20250102_203936.jpg"  onclick="olivre('Manuel_du_hacker')">
+                        <img class="occupation_bloc livre_pourlesnuls" src="img/Resized_20231005_120706_7744.jpeg" onclick="olivre('Apprendre_à_programmer_en_C_pour_les_nuls')" title="Apprendre_à_programmer_en_C_pour_les_nuls">
+                        <img class="occupation_bloc livre_pourlesnuls" src="img/20250102_200552.jpg"  onclick="olivre('Python_pour_les_Nuls')" title="Python_pour_les_Nuls">
+                        <img class="occupation_bloc livre_pourlesnuls" src="img/20250102_203936.jpg"  onclick="olivre('Manuel_du_hacker')" title="Manuel_du_hacker">
                     </div><br>
                     <div class="bloc_parrainage">
                         <p id="parrainage1">Lien de parrainage :</p>
                         <span>
-                            <img id="bloc_parrainage" class="occupation_bloc" src="https://play-lh.googleusercontent.com/2GGEtGfH7YeGx9hNcK9fCt6GzE3_kPuHafDPebNiM45Z89ztwWYelaEey9a5E8J4UtQ=w240-h480" onclick="oparrainage('gomining')"><br>
+                            <img id="bloc_parrainage" class="occupation_bloc" src="https://play-lh.googleusercontent.com/2GGEtGfH7YeGx9hNcK9fCt6GzE3_kPuHafDPebNiM45Z89ztwWYelaEey9a5E8J4UtQ=w240-h480" onclick="oparrainage('gomining')" title="Gomining Maxime"><br>
                             <sub id="parrainage">0ntfA <br> code d'invitation de l'application <br> Gomining</sub>
                         </span>
                     </div>
@@ -78,18 +78,18 @@
                 <sections class="alignement_footer">
                     <div>
                         <h4 id="tradcontact">Mes contacts :</h4>
-                        <img class="lumière_ico contact" src="ico/curriculum-vitae.png" alt="https://www.flaticon.com/fr/icones-animees-gratuite/curriculum-vitae" onclick="ocontact('cv')">
-                        <img class="lumière_ico contact" src="ico/linkedin.png" alt="https://www.flaticon.com/fr/icones-gratuites/linkedin" onclick="ocontact('linkedin')"><br>
-                        <a href="mailto:maxim.rigaud@gmail.com">maxim.rigaud@gmail.com</a><br>
-                        <a href="tel:+33659061059">06 59 06 10 59</a>
+                        <img class="lumière_ico contact" src="ico/curriculum-vitae.png" alt="https://www.flaticon.com/fr/icones-animees-gratuite/curriculum-vitae" onclick="ocontact('cv')" title="CV Maxime">
+                        <img class="lumière_ico contact" src="ico/linkedin.png" alt="https://www.flaticon.com/fr/icones-gratuites/linkedin" onclick="ocontact('linkedin')" title="LinkedIn Maxime"><br>
+                        <a href="mailto:maxim.rigaud@gmail.com" class="lumière_ico">maxim.rigaud@gmail.com</a><br>
+                        <a href="tel:+33659061059" class="lumière_ico">06 59 06 10 59</a>
                         <br>
                     </div>
                     
                     <div>
                         <h4>Portfolio :</h4>
-                        <img class="lumière_ico contact" src="ico/github.png" alt="https://www.flaticon.com/fr/icones-gratuites/github" onclick="ocontact('github')">
-                        <img class="lumière_ico contact" src="https://play-lh.googleusercontent.com/tfXDLGwtSfdc0QcHWXc0OoIJ7RWI6-80JH2gjF_YzZHKi6WqEC85NgK8xofrsb8LY0E" alt="Terabox_dev" onclick="ocontact('terabox_dev')">
-                        <img class="lumière_ico contact" src="https://play-lh.googleusercontent.com/tfXDLGwtSfdc0QcHWXc0OoIJ7RWI6-80JH2gjF_YzZHKi6WqEC85NgK8xofrsb8LY0E" alt="Terabox_lang" onclick="ocontact('terabox_lang')">
+                        <img class="lumière_ico contact" src="ico/github.png" alt="https://www.flaticon.com/fr/icones-gratuites/github" onclick="ocontact('github')" title="Github Maxime">
+                        <img class="lumière_ico contact" src="https://play-lh.googleusercontent.com/tfXDLGwtSfdc0QcHWXc0OoIJ7RWI6-80JH2gjF_YzZHKi6WqEC85NgK8xofrsb8LY0E" alt="Terabox_dev" title="Cloud code" onclick="ocontact('terabox_dev')">
+                        <img class="lumière_ico contact" src="https://play-lh.googleusercontent.com/tfXDLGwtSfdc0QcHWXc0OoIJ7RWI6-80JH2gjF_YzZHKi6WqEC85NgK8xofrsb8LY0E" alt="Terabox_lang" title="Cloud lang" onclick="ocontact('terabox_lang')">
                     </div>
 
                     <div class="sources">    
