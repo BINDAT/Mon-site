@@ -42,8 +42,8 @@ function ocontact(contact){
             window.open('https://openclassrooms.com/fr/','_blank');
             break;
         
-        case 'mimo':
-            window.open('https://mimo.org/web/login?redirectUrl=https%3A%2F%2Fmimo.org%2Fweb%2F219%2Fsection%2F13','_blank');
+        case 'coddy':
+            window.open('https://coddy.tech/user/Infs693','_blank');
             break;
     
         case 'terabox_lang':
