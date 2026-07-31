@@ -4,11 +4,11 @@ function olivre(livre) {
         case 'Python_pour_les_Nuls':
             window.open('https://www.decitre.fr/livres/python-pour-les-nuls-9782412088838.html','_blank');
             break;
-        
+
         case 'Apprendre_à_programmer_en_C_pour_les_nuls': 
             window.open('https://www.decitre.fr/ebooks/apprendre-a-programmer-en-c-pour-les-nuls-9782412024140_9782412024140_3.html','_blank');
             break;
-        
+
         case 'Manuel_du_hacker':
             window.open('https://www.amazon.fr/dp/B08JDXBLSZ?ref=ppx_yo2ov_dt_b_fed_asin_title','_blank');
             break;
@@ -21,15 +21,15 @@ function ocontact(contact){
         case 'github':
             window.open('https://cb.run/AW8A','_blank');
             break;
-        
+
         case 'linkedin':
             window.open('https://cb.run/MMZT','_blank');
             break;
-        
+
         case 'cv':
             window.open('CV.pdf'); 
             break;
-        
+
         case 'duolingo':
             window.open('https://cb.run/xHZz','_blank');
             break;
@@ -37,26 +37,23 @@ function ocontact(contact){
         case 'wildlearner':
             window.open('https://cb.run/l8w5','_blank');
             break;
-        
+
         case 'openclassroom':
             window.open('https://openclassrooms.com/fr/','_blank');
             break;
-        
+
         case 'coddy':
             window.open('https://coddy.tech/user/Infs693','_blank');
             break;
-    
-        case 'terabox_lang':
-            window.open('https://cb.run/Alr7','_blank');
+
+        case 'terabox_share':
+        window.open('https://www.1024tera.com/wap/share/filelist?surl=hUAwiuaMkL38I8hMC8e6Tw&fbclid=IwT01FWATZRfdleHRuA2FlbQIxMABzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR5eMV5KgDh74yoh_dlUuQ4OdZwB5evfGj6RBT-CeUQ0NhxZuKFvucpUIouSsQ_aem_uCTlljjJhSgs6TW-uaE79g','_blank');
             break;
-        case 'terabox_dev':
-            window.open('https://cb.run/3qkw','_blank');
-            break;
-        
+
         case 'sololearn':
             window.open('https://cb.run/YgRs');
             break;
-        
+
         case 'simplex':
             window.open('https://smp11.simplex.im/a#qbI5NumLXnrT7rNOOK6mTKojRdJAr50lcIxgG7ymozM', '_blank');
             break;
@@ -86,7 +83,7 @@ function olangue(langue) {
             document.getElementById("tradsources").innerHTML = "Mes sources :"
             document.getElementById("tradcode").innerHTML = "Pour les curieux"
             break;
-        
+
         case 'english':
             document.getElementById("langue_titre_bloc_intro").innerHTML = "Rigaud Maxime <br> Apprendice coder";
             document.getElementById("paragraphe_intro").innerHTML = "Apprentices in the world of computer programming <br> I would be delighted to make my knowledge available."
