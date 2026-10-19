@@ -53,10 +53,6 @@ function ocontact(contact){
         case 'sololearn':
             window.open('https://cb.run/YgRs');
             break;
-
-        case 'simplex':
-            window.open('https://smp11.simplex.im/a#qbI5NumLXnrT7rNOOK6mTKojRdJAr50lcIxgG7ymozM', '_blank');
-            break;
     }
 }
 
