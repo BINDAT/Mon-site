@@ -80,14 +80,14 @@
                         <h4 id="tradcontact">Mes contacts :</h4>
                         <img class="lumière_ico contact" src="ico/curriculum-vitae.png" alt="https://www.flaticon.com/fr/icones-animees-gratuite/curriculum-vitae" onclick="ocontact('cv')" title="CV Maxime">
                         <img class="lumière_ico contact" src="ico/linkedin.png" alt="https://www.flaticon.com/fr/icones-gratuites/linkedin" onclick="ocontact('linkedin')" title="LinkedIn Maxime">
-                        <img class="lumière_ico contact" src="https://simplex.chat/img/new/logo-symbol-dark.svg" alt="https://simplex.chat/" onclick="ocontact('simplex')" title="Simplex_Bindat"><br>
+                        <br>
                     </div>
 
                     <div>
                         <h4>Portfolio :</h4>
                         <img class="lumière_ico contact" src="ico/github.png" alt="https://www.flaticon.com/fr/icones-gratuites/github" onclick="ocontact('github')" title="Github Maxime">
                         <img class="lumière_ico contact" src="https://play-lh.googleusercontent.com/tfXDLGwtSfdc0QcHWXc0OoIJ7RWI6-80JH2gjF_YzZHKi6WqEC85NgK8xofrsb8LY0E" alt="Terabox_dev" title="Cloud code" onclick="ocontact('terabox_share')">
-                        
+
                     </div>
 
                     <div class="sources">    
